@@ -1,0 +1,221 @@
+.navbar{
+    width: 100%;
+    height: 150px;
+    background-color:white;
+    box-shadow: 2px 4px 2px 2px rgba(66, 46, 46, 0.495);
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+   
+}
+.menu-list{
+     display: flex;
+     list-style: none;
+     position: relative;
+     left: 100px;
+     bottom: 100px;
+  
+    
+}
+.a a{
+    text-decoration: none;
+    margin: 35px;
+    font-size: 40px;
+}
+.image{
+   
+    position: relative;
+    right: 0px;
+}
+.search{
+    padding: 15px;
+    position: relative;
+    left: 900px;
+    bottom: 150px;
+}
+.btn{
+    padding: 15px;
+    position: relative;
+    left: 900px;
+    bottom: 150px;
+}
+.banner{
+    width:100%;
+    height: 180vh;
+    background-image: url(asset/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero{
+    margin-top: 0;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+.shop{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 200px;
+    left: 60px;
+    border-radius: 5%;
+    width: 200px;
+}
+.shop:hover{
+    background-color: darkgreen;
+}
+.a:hover{
+ background-color: brown;
+ border-radius: 5%;
+}
+.categories{
+    width:100%;
+    height: 500px;
+    display: flex;
+    gap: 10px;
+}
+.cart{
+    width: 400px;
+    height:300px;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+.items{
+    width:200px;
+    height:200px;
+}   
+.items:hover{
+    transform: scale(1.2);
+}
+.image1{
+    background-image:url(asset/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:600px;
+    height:250px;
+   
+}
+.image2{
+    background-image:url(asset/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:600px;
+    height:250px;
+   
+}
+.ground{
+    display: flex;
+    gap: 90px;
+    margin-bottom: 80px;
+}
+.hr{
+    position: relative;
+    left: 20px;
+    top: 40px;
+    color: white;
+}
+.cl{
+    position: relative;
+    left: 20px;
+    top: 50px;
+    color: white;
+}
+.but{
+    position: relative;
+    left: 20px;
+    top: 60px;
+}
+.but:hover{
+    background-color: black;
+    color: white;
+}
+.text{
+    width: 100%;
+    height:900px;
+    display: flex;
+    flex-wrap: wrap;
+     gap:30px;
+     display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.grocery {
+    width:300px;
+    height:400px;
+    box-shadow: 2px 4px 4px 2px rgba(165, 153, 153, 0.534) ;
+    
+    
+}
+.img{
+    width: 100px;
+    height: 150px;
+    margin-left: 85PX;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height:500px;
+    background-color: rgb(216, 208, 208);
+}
+.foot{
+    display: flex;
+    padding: 20px;
+}
+
+.lists{
+  margin-top:60px;
+}
+.liststyle{
+    list-style:none;
+    padding: 20px;
+    margin: 10px;
+}
+.h{
+    padding:2px ;
+    position: relative;
+    left: 5px;
+    
+
+}
+.dr{
+    display: flex;
+    gap: 20PX;
+}
+i{
+    color: rgb(180, 180, 26);
+    display: flex;
+}
+.hi{
+    margin:40px;
+  position: relative;
+  left: 50px;
+  bottom:30px;
+
+}
+.app{
+    width: 50px;
+    height: 50px;
+   
+}
+.play{
+    width: 100px;
+    height: 50px;
+    position:relative;
+    left:50px;
+}
+.lat{
+  margin-left: 20px;
+}
+.lats{
+   margin-left: 200px;
+   background-color: rgb(14, 167, 14);
+   padding: 5px;
+   color: white;
+   border-radius: 5%;
+}
